@@ -10,7 +10,7 @@ public class AccountDaoFactory {
     }
     static AccountDao accountUserDao() throws SQLException {
         if(accountDao == null){
-            accountDao = new dao.AccountDaoImp1();
+            accountDao = new AccountDaoImp1();
         }
         return accountDao;
     }
